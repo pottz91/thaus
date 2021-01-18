@@ -1,21 +1,13 @@
 ---
 layout: blog
 ---
-
+<!--
 <section class="mt-15">
     {% set postslist = collections.post %}
 
     {% for post in postslist | reverse %}
         <article class="my-8">
-            <h2 class="font-bold text-3xl text-gray-900 mb-2">
-                <a href="{{ post.url | url }}">
-                    {% if post.data.title %}
-                        {{ post.data.title }}
-                    {% else %}
-                        Untitled
-                    {% endif %}
-                </a>
-            </h2>
+       
             <p class="text-base leading-6 text-gray-500 mb-3">
                 <time>
                     {{ post.date | readableDate }}
@@ -39,3 +31,54 @@ layout: blog
         </article>
     {% endfor %}
 </section>
+-->
+{% set postslist = collections.post %}
+{% for post in postslist | reverse %}
+<div class="container mx-auto px-4 py-12">
+	<div class="flex flex-wrap justify-center">
+<div class="max-w-md md:max-w-full px-2">
+			<div class="bg-white shadow-xl rounded-lg overflow-hidden md:flex">
+				<div class="bg-cover bg-bottom h-56 md:h-auto md:w-56" style="background-image: url(https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B082KBG9XR&Format=_SL160_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=puregainz08-21&language=de_DE)">
+				</div>
+				<div>
+					<div class="p-4 md:p-5">
+                        <p class="font-bold text-3xl text-gray-900 mb-2">
+                            <a href="{{ post.url | url }}">
+                                {% if post.data.title %}
+                                    {{ post.data.title }}
+                                {% else %}
+                                    Untitled
+                                {% endif %}
+                            </a>
+                        </p>
+                        {% if post.data.description %}
+                        <p class="text-gray-700 md:text-lg">{{ post.data.description }}</p>
+                        {% endif %}
+					</div>
+					<div class="p-4 md:p-5 bg-gray-100">
+						<div class="sm:flex sm:justify-between sm:items-center">
+							<div>
+								<div class="text-lg text-gray-700"><span class="text-gray-900 font-bold">{{ post.data.preis }}</span></div>
+								<div class="flex items-center">
+									<div class="flex inline-flex -mx-px">
+										<svg class="w-4 h-4 mx-px fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+											<path d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z" /></svg>
+										<svg class="w-4 h-4 mx-px fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+											<path d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z" /></svg>
+										<svg class="w-4 h-4 mx-px fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+											<path d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z" /></svg>
+										<svg class="w-4 h-4 mx-px fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+											<path d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z" /></svg>
+										
+									</div>
+									<div class="text-gray-600 ml-2 text-sm md:text-base mt-1">28 Bewertungen</div>
+								</div>
+							</div>
+							<button class="mt-3 sm:mt-0 py-2 px-5 md:py-3 md:px-6 bg-red-600 hover:bg-indigo-600 font-bold text-white md:text-lg rounded-lg shadow-md"> Mehr dazu</button>
+						</div>
+						<div class="mt-3 text-gray-600 text-sm md:text-base">*Prices may vary depending on selected date.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        {% endfor %}
