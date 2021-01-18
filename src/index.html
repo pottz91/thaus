@@ -1,8 +1,15 @@
 ---
 layout: blog
 ---
-
-
+{% if Textheader.text %}
+<section class="py-8 px-4">
+  {% for item in Textheader.text %}
+  <div class="max-w-3xl mx-auto">
+    <h2 class="text-xl font-semibold">{{ item.beschreibung }}</h2>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
 
 {% set postslist = collections.post %}
 {% for post in postslist | reverse %}
