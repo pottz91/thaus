@@ -1,15 +1,7 @@
 ---
 layout: blog
 ---
-{% if Textheader.text %}
-<section class="py-8 px-4">
-  {% for item in Textheader.text %}
-  <div class="max-w-3xl mx-auto">
-    <h2 class="text-xl font-semibold">{{ item.beschreibung }}</h2>
-  </div>
-  {% endfor %}
-</section>
-{% endif %}
+{% include "./partials/headertext.html" %}
 
 {% set postslist = collections.post %}
 {% for post in postslist | reverse %}
@@ -32,7 +24,7 @@ layout: blog
                         </p>
                         {% if post.data.description %}
                         <p class="text-gray-700 md:text-lg">{{ post.data.description }}</p>
-                        {% endif %}
+                        {% endfor %}
 					</div>
 					<div class="p-4 md:p-5 bg-gray-100">
 						<div class="sm:flex sm:justify-between sm:items-center">
@@ -60,4 +52,4 @@ layout: blog
 				</div>
 			</div>
 		</div>
-        {% endfor %}
+      {% endfor %}
