@@ -7,7 +7,7 @@ preis: 99€
 author: Dein-Tomatenhaus
 date: 2021-08-31T22:00:00.000Z
 bild: https://images-na.ssl-images-amazon.com/images/I/81bwReB9RRL._AC_SL1500_.jpg
-rating: "3"
+rating: "333"
 tags:
   - left
   - center
