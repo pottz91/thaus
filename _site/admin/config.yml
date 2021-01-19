@@ -20,7 +20,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Cardbeschreibung", name: "description", widget: "string" }
+      - { label: "Cardbeschreibung", name: "carddescription", widget: "string" }
       - { label: "Preis", name: "preis", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Postingdatum", name: "date", widget: "datetime" }
@@ -29,7 +29,7 @@ collections:
       - { label: "Rating", name: "rating", widget: "string" }
       - { label: "Anzahl der Bewertungen", name: "bewertung", widget: "string" }
       - { label: "Focus Keyword", name: "yoast_keyword", widget: "string" }
-      - { label: "Meta Description", name: "seo", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string" }
       - widget: select
         label: "tags"
         name: "tags"
