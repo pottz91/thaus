@@ -8,16 +8,13 @@ author: Dein-Tomatenhaus
 date: 2021-08-31T22:00:00.000Z
 bild: https://images-na.ssl-images-amazon.com/images/I/81bwReB9RRL._AC_SL1500_.jpg
 rating: "333"
+bewertung: "28"
 tags:
   - left
   - center
   - right
 ---
-# This is a Heading h1
 
-## This is a Heading h2
-
-###### This is a Heading h6
 
 ## Emphasis
 
