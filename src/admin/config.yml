@@ -61,18 +61,23 @@ collections:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }   
+          
+          
           - label: "Newsbar"
             name: "alert"
             file: "src/_data/textheader.yaml"
             fields:
-          - label: Newsbar
-            name: links
-            widget: list
-            collapsed: false
-            editor:
-            preview: true
-            fields:
-            - { label: News, name: nachricht, widget: string }
+            - label: Newsbar
+              name: links
+              widget: list
+              collapsed: false
+              editor:
+              preview: true
+              fields:
+                - { label: News, name: nachricht, widget: string }
+          
+          
+          
         
         
    

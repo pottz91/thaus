@@ -72,7 +72,7 @@ collections:
             editor:
             preview: true
             fields:
-            - { label: News, name: nachricht, widget: string }
+            - { label: "News", name: "nachricht", widget: "string"}
         
         
    
