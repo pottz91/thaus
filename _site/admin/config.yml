@@ -14,7 +14,7 @@ local_backend: true
 collections:
   - label: "Produkte"
     name: "blog"
-    folder: "src/produkte"
+    folder: "src/posts"
     create: true
     slug: "{{slug}}"
     editor:
