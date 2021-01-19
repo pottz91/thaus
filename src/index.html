@@ -2,9 +2,9 @@
 layout: blog
 ---
 {% if alert.links %} 
- {% for item in alert.links %}
 <div class="flex flex-wrap flex-col lg:flex-row items-center p-4">
-	  <p class="text-dark font-bold md:text-lg">{{item.nachricht}}</p>
+	 {% for item in alert.links %}
+	<p class="text-dark font-bold md:text-lg">{{ item.nachricht }}</p>
 	</div>
 	{% endfor %} 
 	{% endif %}
