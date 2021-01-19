@@ -1,9 +1,14 @@
 ---
 layout: blog
 ---
-{% if Textheader.Text %}
-<h5 class="text-lg mb-2 leading-tight font-bold font-heading">{{ item.textheader }}</h5>
-{% endif %}
+{% if alert.links %} 
+ {% for item in alert.links %}
+<div class="flex flex-wrap flex-col lg:flex-row items-center p-4">
+	  <p class="text-dark font-bold md:text-lg">{{item.nachricht}}</p>
+	</div>
+	{% endfor %} 
+	{% endif %}
+	
 <section class="mt-15">
     {% set postslist = collections.post %}
 
@@ -24,7 +29,7 @@ layout: blog
 			<div class="sm:flex sm:justify-between sm:items-center">
 				<div>
 					<div class="text-lg text-gray-700"><span class="text-gray-900 font-bold">{{ post.data.preis }}</span></div>
-					<div class="flex items-center">
+					<div class="flex items-center py-2">
 						<div class="inline-flex -mx-px">
 							{% if post.data.rating %}
 							{% for rating in post.data.rating %}							
