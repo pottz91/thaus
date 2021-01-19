@@ -1,8 +1,6 @@
 ---
 title: " Yorbay Foliengewächshaus"
-description: Zwei Fenster mit Fliegennetzen und große Tür mit Reißverschluss für
-  optimale Belüftung. Einfache Montage und Demontage, leicht zu tragen und
-  aufzubewahren es nicht in Gebrauch ist
+carddescription: test test test
 preis: 99€
 author: Dein-Tomatenhaus
 date: 2021-08-31T22:00:00.000Z
@@ -10,11 +8,14 @@ bild: https://images-na.ssl-images-amazon.com/images/I/81bwReB9RRL._AC_SL1500_.j
 rating: "333"
 bewertung: "28"
 yoast_keyword: " Yorbay Foliengewächshaus"
-seo: " Yorbay Foliengewächshaus "
+description: Zwei Fenster mit Fliegennetzen und große Tür mit Reißverschluss für
+  optimale Belüftung. Einfache Montage und Demontage, leicht zu tragen und
+  aufzubewahren es nicht in Gebrauch ist
 tags:
   - left
   - center
   - right
+seo: " Yorbay Foliengewächshaus "
 ---
 
 
