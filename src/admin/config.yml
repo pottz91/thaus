@@ -26,6 +26,7 @@ collections:
       - { label: "Postingdatum", name: "date", widget: "datetime" }
       - { label: "Text", name: "body", widget: "markdown" }
       - { label: "Bild", name: "bild", widget: "image" }
+      - { label: "Rating", name: "rating", widget: "string" }
       - widget: select
         label: "tags"
         name: "tags"
