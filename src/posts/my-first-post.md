@@ -1,9 +1,12 @@
 ---
-title: This is my first post
-description: Das ist ein Tomatenhaus
+title: " Yorbay Foliengewächshaus"
+description: Zwei Fenster mit Fliegennetzen und große Tür mit Reißverschluss für
+  optimale Belüftung. Einfache Montage und Demontage, leicht zu tragen und
+  aufzubewahren es nicht in Gebrauch ist
 preis: 99€
-author: Surjith S M
-date: 2020-09-01
+author: Dein-Tomatenhaus
+date: 2021-08-31T22:00:00.000Z
+bild: https://images-na.ssl-images-amazon.com/images/I/81bwReB9RRL._AC_SL1500_.jpg
 tags:
   - left
   - center
