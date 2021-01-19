@@ -25,6 +25,7 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Postingdatum", name: "date", widget: "datetime" }
       - { label: "Text", name: "body", widget: "markdown" }
+      - { label: "Bild", name: "bild", widget: "image" }
       - widget: select
         label: "tags"
         name: "tags"
