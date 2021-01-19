@@ -11,7 +11,9 @@ module.exports = {
       center: true,
     },
     extend: {
-      colors: {},
+      colors: {
+        'tomate': '#A5505D',
+      },
     },
   },
   variants: {},
