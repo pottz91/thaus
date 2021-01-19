@@ -1,8 +1,9 @@
 ---
 layout: blog
 ---
-{% include "./_includes/partials/textheader.html" %}
-
+{% if Textheader.Text %}
+<h5 class="text-lg mb-2 leading-tight font-bold font-heading">{{ item.textheader }}</h5>
+{% endif %}
 <section class="mt-15">
     {% set postslist = collections.post %}
 

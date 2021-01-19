@@ -65,7 +65,7 @@ collections:
         name: "Text"
         file: "src/_data/textheader.yaml"
         fields:
-          - { label: Beschreibung, name: beschreibung, widget: string }
+          - { label: Beschreibung, name: textheader, widget: body }
 
         
         
