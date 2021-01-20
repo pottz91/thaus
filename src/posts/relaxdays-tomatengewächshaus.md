@@ -6,7 +6,7 @@ carddescription: Saftige Tomaten züchten Sie mit dem Tomatengewächshaus ganz
 preis: 21,90€
 author: Dein Tomatenhaus
 date: 2021-01-19T13:56:33.544Z
-bild: https://images-na.ssl-images-amazon.com/images/I/91Iq5OH4Z2L._AC_SL1500_.jpg
+bild: https://images-na.ssl-images-amazon.com/images/I/91O4jitRiYL._AC_SL1500_.jpg
 rating: "3333"
 bewertung: 444 Bewertungen
 yoast_keyword: Relaxdays Tomatengewächshaus
