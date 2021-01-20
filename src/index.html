@@ -1,20 +1,10 @@
 ---
-layout: blog
+layout:  blog
 ---
 
-{% include "./_includes/partials/header.html" %}
-
-{% for item in mitarbeiter.links %}
-{% if mitarbeiter.links %} 
-<section class="py-16 px-4 text-center">
-{{ item.descneu }} 
-{% endif %}
-	   </section>
-	   {% endfor %}
-	  
-
-	
+<div class="container max-w-4xl mt-6 px-6">
 <section class="mt-15">
+	<h1 class="font-bold text-5xl">{{title}}</h1>
     {% set postslist = collections.post %}
 
     {% for post in postslist | reverse %}
@@ -53,9 +43,34 @@ layout: blog
 </div>
 {% endfor %}
 </section>
+<a id="Vorteile"></a>
+<h2 class="text-2xl font-bold">Mein Tomatenhaus - die Vorteile</h2><br>
+
+<p class="text-justify">F&uuml;r den einen ist es ein Hobby, f&uuml;r den anderen der Einstieg in die Selbstversorgung. Die eigenen Tomaten zu ernten ist in jedem Fall ein besonderes Gef&uuml;hl. Nur warum habe ich mich entschieden meine eigenen Tomaten anzupflanzen und warum solltest Du es dir auch &uuml;berlegen.</p><br>
+
+<p class="text-justify"><b>1.</b>Optimale Qualit&auml;t des Gem&uuml;se Es ist nicht nur ein subjektiver Eindruch, dass das eigene Gem&uuml;se einfach besser schmeckt, es ist tats&auml;chlich so. Die direkte Sonneneinstrahlung, das Bew&auml;ssern und die konstanten Klimabedingungen in deinem eigenen Tomatenhaus sorgen daf&uuml;r, dass die Tomaten gleichm&auml;&szlig;ig und schonend wachsen. Dadurch bilden Sie einen unglaublich guten Geschmack, den man von Tomaten aus dem Laden nicht kennt. Die Erntezeit ist den gesamten Sommer &uuml;ber bis in den Oktober hinein.</p><br>
+
+<p class="text-justify"><b>2.</b> &Ouml;kologischer Fingerabdruck Mich beruhigt es dazu auch, dass man Tomaten nicht von weit her importieren muss. Das sorgt zugleich f&uuml;r weniger CO2 und somit tragen zu einem besseren Klima bei. Die meisten Tomaten kommen nach Deutschland aus den Niederlanden und danach aus Spanien. Diese Transportwege spare ich mir, denn ich muss ja nur in meinen Garten gehen und habe direkt meine frischen Tomaten parat.</p><br>
+
+<p class="text-justify"><b>3. </b>Einfache Startvorraussetzungen Tomaten k&ouml;nnen im freien Feld, im K&uuml;bel oder in einem Gew&auml;chshaus angepflanzt werden. Bei jeder Variante gibt es spezielle Sorten und auch Bedingungen, die beachtet werden sollten. Wenn du Platz in deinem Garten hast, dann geht die Empfehlung ganz klar auf ein Gew&auml;chshaus oder Tomatenhaus. Aber es gibt auch sogenannte Folientunnel, also einfachere Gew&auml;chsh&auml;user. Auch f&uuml;r den Balkon gibt es verschiedene M&ouml;glichkeiten sowie auch spezielle Balkonsorten. Es lohnt sich in jedem Fall damit zu starten</p><br>
+{% include "./_includes/partials/seotext.html" %}
 
 
+<!-- Primary Meta Tags -->
+<title>Mein Tomatenhaus - Tomatenhaus zum selber bauen</title>
+<meta name="title" content="Mein Tomatenhaus - Tomatenhaus zum selber bauen">
+<meta name="description" content="Tomatenhaus zum selber bauen - Testberichte  zu den besten Tomatenhäuser für deinen Garten">
 
-<div>
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.mein-tomatenhaus.de/">
+<meta property="og:title" content="Mein Tomatenhaus - Tomatenhaus zum selber bauen">
+<meta property="og:description" content="Tomatenhaus zum selber bauen - Testberichte  zu den besten Tomatenhauesern">
+<meta property="og:image" content="https://www.mein-tomatenhaus.de/static/img/Logo_2.svg">
 
-	{% include "./_includes/partials/seotext.html" %}
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.mein-tomatenhaus.de/">
+<meta property="twitter:title" content="Mein Tomatenhaus - Tomatenhaus zum selber bauen">
+<meta property="twitter:description" content="Tomatenhaus zum selber bauen - Testberichte  zu den besten Tomatenhauesern">
+<meta property="twitter:image" content="https://www.mein-tomatenhaus.de/static/img/Logo_2.svg"">

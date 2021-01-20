@@ -1,8 +1,8 @@
 <div class="{{ '' if path == 'home' }} w-full">
-    <nav class="rounded-lg shadow-lg bg-red-500 max-w-6xl flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
+    <nav class="shadow-xl bg-red-500 max-w-full flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Logo etc-->
         <div class="flex items-center">
-           <div class="flex items-center ml-12">
+           <div class="flex items-center ml-12 ">
                  <a href="/">
                    <img src="\static\img\Logo_2.svg"  class="transform hover:scale-110 motion-reduce:transform-none lazyload" style="width: 150px" />
                  </a>
@@ -34,4 +34,5 @@
             {% endif %}
         </div>
     </nav>
+    
 </div>

@@ -78,7 +78,7 @@ collections:
         file: "src/_data/seotext.yaml"
         fields:
           - label: Seotext
-            name: seo
+            name: Seotext
             widget: list
             collapsed: false
             fields:
