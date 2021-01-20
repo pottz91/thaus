@@ -78,10 +78,10 @@ collections:
         file: "src/_data/seotext.yaml"
         fields:
           - label: Seotext
-            name: links
+            name: seo
             widget: list
             collapsed: false
             fields:
-            - { label: Description, name:  seotext, widget: markdown }
+            - { label: Textfeld, name:  seotext, widget: markdown }
 
 
