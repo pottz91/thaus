@@ -66,12 +66,12 @@ collections:
         name: "boxlinks"
         file: "src/_data/textheader.yaml"
         fields:
-          - label: Box Items
+          - label: Beschreibung
             name: links
             widget: list
             collapsed: false
             fields:
-            - { label: Description, name: desc, widget: string }
+            - { label: Description, name: descneu, widget: string }
 
 
 
