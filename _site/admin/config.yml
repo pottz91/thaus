@@ -73,5 +73,15 @@ collections:
             fields:
             - { label: Description, name: descneu, widget: string }
 
+      - label: "Seotext"
+        name: "boxlinks"
+        file: "src/_data/seotext.yaml"
+        fields:
+          - label: Seotext
+            name: links
+            widget: list
+            collapsed: false
+            fields:
+            - { label: Description, name:  seotext, widget: markdown }
 
 

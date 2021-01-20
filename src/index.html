@@ -2,23 +2,16 @@
 layout: blog
 ---
 
+{% include "./_includes/partials/header.html" %}
 
-
-
-
-
-
-
-<section class="py-16 px-4 text-center">
+{% for item in mitarbeiter.links %}
 {% if mitarbeiter.links %} 
-{% for item in mitarbeiter.links %} 
-<p class="mt-2 text-base leading-6 text-gray-500">
-	{{ item.descneu}} 
-</p>
-
-	{% endfor %}
-		{% endif %}
-	</section>
+<section class="py-16 px-4 text-center">
+{{ item.descneu }} 
+{% endif %}
+	   </section>
+	   {% endfor %}
+	  
 
 	
 <section class="mt-15">
@@ -63,7 +56,6 @@ layout: blog
 
 
 
+<div>
 
-
-
-
+	{% include "./_includes/partials/seotext.html" %}
