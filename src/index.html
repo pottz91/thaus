@@ -2,10 +2,8 @@
 layout: blog
 ---
 {% if alert.links %} 
-<div class="flex flex-wrap flex-col lg:flex-row items-center p-4">
 	 {% for item in alert.links %}
 	<p class="text-dark font-bold md:text-lg">{{ item.nachricht }}</p>
-	</div>
 	{% endfor %} 
 	{% endif %}
 	
@@ -13,7 +11,7 @@ layout: blog
     {% set postslist = collections.post %}
 
     {% for post in postslist | reverse %}
-<div class="bg-white shadow-xl rounded-lg overflow-hidden md:flex mb-12">
+<div class="items-center bg-white shadow-xl rounded-lg overflow-hidden md:flex mb-12">
 
 		<img class=" max-w-full h-52 mr-12" src="{{ post.data.bild }}">
 	
