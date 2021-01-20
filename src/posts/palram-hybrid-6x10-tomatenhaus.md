@@ -6,7 +6,7 @@ carddescription: Palram Hybrid-Gewächshäuser bieten Ihnen eine perfekte
   lichtundurchlässigen 4 mm-Doppelwand-Dachpaneele ermöglichen eine lassen bis
   zu 70% Tageslicht ins Innere.
 preis: 563,19€
-author: Mein Tomatenhaus
+author: " Mein Tomatenhaus"
 date: 2021-01-20T12:51:06.659Z
 bild: https://images-na.ssl-images-amazon.com/images/I/A1SSea4IxeL._AC_SL1500_.jpg
 rating: "3333"
