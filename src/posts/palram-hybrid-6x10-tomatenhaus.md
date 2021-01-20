@@ -1,10 +1,8 @@
 ---
 title: Palram HYBRID 6X10 Tomatenhaus
-carddescription: Palram Hybrid-Gewächshäuser bieten Ihnen eine perfekte
+carddescription: "Palram Hybrid-Gewächshäuser bieten Ihnen eine perfekte
   Kombination - diffuses Sonnenlicht von oben, für optimales Pflanzenwachstum
-  und kristallklare Seitenwände, um die Ergebnisse zu präsentieren. Die
-  lichtundurchlässigen 4 mm-Doppelwand-Dachpaneele ermöglichen eine lassen bis
-  zu 70% Tageslicht ins Innere.
+  und kristallklare Seitenwände, um die Ergebnisse zu präsentieren. "
 preis: 563,19€
 author: " Mein Tomatenhaus"
 date: 2021-01-20T12:51:06.659Z
