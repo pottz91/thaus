@@ -4,8 +4,7 @@ carddescription: Palram Hybrid-Gewächshäuser bieten Ihnen eine perfekte
   Kombination - diffuses Sonnenlicht von oben, für optimales Pflanzenwachstum
   und kristallklare Seitenwände, um die Ergebnisse zu präsentieren. Die
   lichtundurchlässigen 4 mm-Doppelwand-Dachpaneele ermöglichen eine lassen bis
-  zu 70% Tageslicht ins Innere des Treibhauses und sorgen für ein gesundes
-  Pflanzenwachstum
+  zu 70% Tageslicht ins Innere.
 preis: 563,19€
 author: Mein Tomatenhaus
 date: 2021-01-20T12:51:06.659Z
